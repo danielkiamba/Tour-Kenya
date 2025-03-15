@@ -8,3 +8,13 @@
 
 
 }
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.nav-item:focus, 
+.dropdown-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
