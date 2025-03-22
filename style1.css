@@ -2,6 +2,11 @@
     height: 70vh;
     object-fit: cover;
 }
+.im-m{
+    height: 100%;
+    object-fit: cover;
+
+}
 .customprev11{
     height: 40vh;
     object-fit: cover;
@@ -17,4 +22,33 @@
 .dropdown-toggle:focus {
   outline: none;
   box-shadow: none;
+}
+.custom-bg{
+    background: white;
+}
+.c-width {
+    width: 8em;
+    text-align: center;
+    border-radius: 5px;
+}
+.card-img-overlay {
+    height: 100%; /* Ensure it matches the height of the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: end; /* Keep content at the bottom */
+  }
+  
+  .card-title {
+    margin-bottom: auto; /* Prevent the title from moving out of the image */
+    z-index: 1; /* Ensure it stays visible */
+  }
+  
+  .card-text {
+    z-index: 1; /* Ensure text stays visible */
+  }
+@media (min-width: 768px){
+    .custom-bg{
+    background: #495057;
+        
+    }
 }
