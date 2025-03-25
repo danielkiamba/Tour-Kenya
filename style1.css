@@ -46,6 +46,21 @@
   .card-text {
     z-index: 1; /* Ensure text stays visible */
   }
+  .btn-outline-accent {
+    color: rgb(234, 31, 99);
+    border-color: rgb(234, 31, 99);
+}
+.btn-outline-accent:hover {
+  color: aliceblue;
+  background-color: rgb(234, 31, 99);;
+}
+.bi-arrow-right {
+ transform: scaleX(1.5);
+ display: inline-block;
+ transform: scale(1.5);
+ margin-left: 5px;
+}
+  
 @media (min-width: 768px){
     .custom-bg{
     background: #495057;
